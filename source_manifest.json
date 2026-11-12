@@ -1,0 +1,98 @@
+[
+  {
+    "id": "S01",
+    "title": "Silicon Carbide in Integrated Energy",
+    "author": "U.S. Department of Energy, Integrated Energy Systems Office",
+    "year": "2026（網頁載有 2026/03 圖說；未明示文章發布日）",
+    "type": "美國政府公開技術解說",
+    "url": "https://www.energy.gov/cmei/systems/silicon-carbide-integrated-energy",
+    "access": "公開網頁全文",
+    "section": "Benefits of Silicon Carbide / The Wide-Bandgap Advantage",
+    "keypoints": [
+      "SiC 因寬能隙、較高耐壓與耐溫能力，可應用於高效率功率轉換器。",
+      "太陽能逆變器、電動車等是具體應用；效率提升需以實際系統設計為準。",
+      "較低能量損失可能降低散熱負擔，讓系統更小。"
+    ],
+    "limits": "政府解說包含示例數字，不能推廣為所有 SiC 裝置均達相同效率。"
+  },
+  {
+    "id": "S02",
+    "title": "Recent Progress on Single-Crystal Growth and Epitaxial Growth of 4H Silicon Carbide",
+    "author": "Yi Lin Liu",
+    "year": "2022",
+    "type": "綜述論文（可查公開摘要，全文需機構權限）",
+    "url": "https://www.scientific.net/SSP.332.73",
+    "access": "公開摘要",
+    "section": "Abstract",
+    "keypoints": [
+      "區分 PVT 單晶成長、晶圓切磨與 CVD 磊晶等技術階段。",
+      "SiC 功率元件需兼顧單晶品質、磊晶層摻雜控制與缺陷控制。",
+      "微管、差排、堆疊缺陷是研究重點。"
+    ],
+    "limits": "僅依公開摘要整理；未取得付費全文，沒有宣稱已閱讀全文。"
+  },
+  {
+    "id": "S03",
+    "title": "Epitaxial Growth of Silicon Carbide",
+    "author": "Tsunenobu Kimoto; James A. Cooper",
+    "year": "2014",
+    "type": "學術書籍章節（可查公開摘要）",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1002/9781118313534.ch4",
+    "access": "公開摘要",
+    "section": "Summary",
+    "keypoints": [
+      "磊晶能形成所需厚度及摻雜濃度的主動層，這在塊材長晶時較難精確控制。",
+      "同質磊晶常用 step-flow 成長機制，且 C/Si 比例會影響摻雜控制。",
+      "長晶所得基板與其上磊晶層的任務不同。"
+    ],
+    "limits": "僅整理出版商可見的 Summary，沒有複製未公開內文。"
+  },
+  {
+    "id": "S04",
+    "title": "Review of Silicon Carbide Processing for Power MOSFET",
+    "author": "Catherine Langpoklakpam et al.",
+    "year": "2022",
+    "type": "同儕審查開放取用綜述（Crystals 12(2),245）",
+    "url": "https://www.mdpi.com/2073-4352/12/2/245",
+    "access": "公開網頁全文",
+    "section": "Introduction / SiC Critical Step / Table 1 / MOSFET",
+    "keypoints": [
+      "4H-SiC 的能隙約 3.26 eV，而 Si 約 1.12 eV（文中 Table 1）；數值依材料、測試條件而異。",
+      "一般單晶塊材可使用 PVT 成長，後續在基板上進行 CVD 磊晶與元件製程。",
+      "SiC MOSFET 具低導通電阻、低切換損失潛力，但 SiC/氧化層介面通道遷移率仍是挑戰。"
+    ],
+    "limits": "數據僅引用文章 Table 1，其他不同文獻不合併成單一標準值。"
+  },
+  {
+    "id": "S05",
+    "title": "Structure Defects in CVD-Grown Silicon Carbide Epitaxial Wafers: From Fundamental Principles to Advanced Reduction Strategies",
+    "author": "Guoliang Zhang et al.",
+    "year": "2026",
+    "type": "同儕審查開放取用綜述（Micromachines 17(2),252）",
+    "url": "https://www.mdpi.com/2072-666X/17/2/252",
+    "access": "公開網頁全文",
+    "section": "Abstract / Sections 2–3 / Conclusions",
+    "keypoints": [
+      "CVD 磊晶晶圓可能含穿通差排、基面差排、堆疊缺陷與三角形缺陷。",
+      "基板缺陷傳遞、表面動力學及成長條件會影響磊晶缺陷。",
+      "控制基板前處理、切角與 C/Si 比例等，是缺陷減少策略。"
+    ],
+    "limits": "本資料是文獻綜述，所提方法不能解讀成在任何條件都可完全消除缺陷。"
+  },
+  {
+    "id": "S06",
+    "title": "Wide Bandgap Semiconductors for Power Electronics: Comparative Properties, Applications, and Reliability of GaN and SiC Devices",
+    "author": "Nathaniel Viewegh et al.",
+    "year": "2026",
+    "type": "同儕審查開放取用綜述（Hardware 4(1),6）",
+    "url": "https://www.mdpi.com/2813-6640/4/1/6",
+    "access": "公開網頁全文",
+    "section": "Introduction / Section 2.2 / Applications",
+    "keypoints": [
+      "4H-SiC 是主流功率元件晶型之一，與 Si 相比有較大能隙與較高耐壓能力。",
+      "材料遷移率並非 SiC 所有條件都優於 Si；須區分塊材與 MOSFET 界面通道。",
+      "製造成本、缺陷、封裝熱管理與可靠度是 SiC 普及的挑戰。"
+    ],
+    "limits": "不同表格可能呈現不同參考數值；本作業的數值一律優先採 S04 Table 1。"
+  }
+]
