@@ -1,0 +1,151 @@
+[
+  {
+    "id": "E01",
+    "claim": "SiC 是寬能隙半導體，可用於高電壓與高溫功率電子。",
+    "sources": [
+      "S01",
+      "S06"
+    ],
+    "position": "S01 The Wide-Bandgap Advantage；S06 Introduction",
+    "tags": [
+      "概念",
+      "寬能隙"
+    ]
+  },
+  {
+    "id": "E02",
+    "claim": "S04 的 Table 1 列出室溫 Si 能隙約 1.12 eV、4H-SiC 約 3.26 eV；這不是遷移率的比較。",
+    "sources": [
+      "S04"
+    ],
+    "position": "S04 Table 1",
+    "tags": [
+      "數字",
+      "材料"
+    ]
+  },
+  {
+    "id": "E03",
+    "claim": "SiC 的優勢是高崩潰電場與散熱、切換潛力，不能直接推論其電子遷移率必高於 Si。",
+    "sources": [
+      "S04",
+      "S06"
+    ],
+    "position": "S04 Table 1 and MOSFET channel mobility；S06 Section 2.2",
+    "tags": [
+      "迷思",
+      "物性"
+    ]
+  },
+  {
+    "id": "E04",
+    "claim": "SiC 塊材單晶成長常用 PVT，之後進行晶圓加工以取得基板。",
+    "sources": [
+      "S02",
+      "S04"
+    ],
+    "position": "S02 Abstract；S04 SiC Critical Step",
+    "tags": [
+      "長晶",
+      "製程"
+    ]
+  },
+  {
+    "id": "E05",
+    "claim": "SiC 磊晶常用 CVD 在晶體基板上沉積受控厚度、摻雜之功能性材料層。",
+    "sources": [
+      "S03",
+      "S04"
+    ],
+    "position": "S03 Summary；S04 Section 2.2",
+    "tags": [
+      "磊晶",
+      "製程"
+    ]
+  },
+  {
+    "id": "E06",
+    "claim": "可用「單晶成長→晶圓切磨／基板→磊晶→元件製程」認識主要材料到元件流程。",
+    "sources": [
+      "S02",
+      "S04"
+    ],
+    "position": "S02 Abstract；S04 Processing Review",
+    "tags": [
+      "製程",
+      "流程"
+    ]
+  },
+  {
+    "id": "E07",
+    "claim": "CVD 磊晶缺陷與基板、表面反應及成長條件有關，須檢測並控制。",
+    "sources": [
+      "S05"
+    ],
+    "position": "S05 Abstract and Sections 2–3",
+    "tags": [
+      "缺陷",
+      "可靠度"
+    ]
+  },
+  {
+    "id": "E08",
+    "claim": "SiC MOSFET 在適當設計下可降低導通或切換損失，但界面通道遷移率會造成限制。",
+    "sources": [
+      "S04"
+    ],
+    "position": "S04 Abstract and MOSFET section",
+    "tags": [
+      "元件",
+      "MOSFET"
+    ]
+  },
+  {
+    "id": "E09",
+    "claim": "電動車驅動、光伏逆變器和功率轉換器是 SiC 常見應用。",
+    "sources": [
+      "S01",
+      "S06"
+    ],
+    "position": "S01 applications；S06 Introduction and Applications",
+    "tags": [
+      "應用"
+    ]
+  },
+  {
+    "id": "E10",
+    "claim": "SiC 製造及應用仍受缺陷、成本、封裝與熱管理等因素限制。",
+    "sources": [
+      "S05",
+      "S06"
+    ],
+    "position": "S05 Conclusions；S06 Introduction and Reliability",
+    "tags": [
+      "挑戰"
+    ]
+  },
+  {
+    "id": "E11",
+    "claim": "在大量材料成長時，厚度和摻雜的精密控制不易；磊晶提供專門的元件層。",
+    "sources": [
+      "S03"
+    ],
+    "position": "S03 Summary",
+    "tags": [
+      "比較",
+      "磊晶"
+    ]
+  },
+  {
+    "id": "E12",
+    "claim": "4H-SiC 是 SiC 的重要晶型之一，晶體堆疊方式影響物性。",
+    "sources": [
+      "S06",
+      "S04"
+    ],
+    "position": "S06 Section 2.2.1；S04 polytypes",
+    "tags": [
+      "晶型"
+    ]
+  }
+]

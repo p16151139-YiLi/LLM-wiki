@@ -1,0 +1,37 @@
+RUN: /opt/pyvenv/bin/python /mnt/data/SiC_LLM_Wiki_Project/qa/check.py
+PASS: 已 ingest 6 篇來源（>= 5）
+PASS: 來源 ID 無重複
+PASS: 13 頁教學 HTML（8–15）
+PASS: 投影片頁碼連續
+PASS: Wiki 共 6 個章節
+PASS: 來源皆有 ingested raw 紀錄與 HTTPS URL
+PASS: 12 張證據卡皆有真實來源與位置
+PASS: 每頁投影片對應有效證據卡與來源
+PASS: Wiki 每章對應證據卡
+PASS: 每頁有獨立逐頁草稿
+PASS: 簡報涵蓋至少八種證據卡
+PASS: index.html HTML 基本結構正確
+PASS: index.html 圖像 alt 檢查
+PASS: wiki/index.html HTML 基本結構正確
+PASS: wiki/index.html 圖像 alt 檢查
+PASS: slides/index.html HTML 基本結構正確
+PASS: HTML 實際有 13 張 slide section
+PASS: slides/index.html 圖像 alt 檢查
+PASS: AGENTS.md 和 Graph 工作流存在
+RESULT: 19 pass, 0 fail
+RUN: node /mnt/data/SiC_LLM_Wiki_Project/qa/test_interactions.js
+PASS Initial deck state is slide 1, Prev disabled
+PASS Next button advances to slide 2
+PASS Prev button returns to slide 1
+PASS End key jumps to last slide
+PASS Home key jumps to first slide
+PASS Right arrow advances
+PASS Print control triggers window.print
+PASS Direct #9 URL navigation works
+PASS Progress bar updates for slide 9
+PASS Wiki search filters to matching section
+PASS Clearing Wiki search restores all chapters
+PASS Wiki shows no-results prompt
+RESULT: 12/12 successful
+PRINT QA: 13 PDF pages vs 13 HTML slides
+WORKFLOW COMPLETE: available automated gates passed. Real browser visual check still requires a normal desktop browser.

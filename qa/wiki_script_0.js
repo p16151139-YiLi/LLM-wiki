@@ -1,0 +1,1 @@
+const q=document.getElementById('search'),all=[...document.querySelectorAll('.chapter')];q.addEventListener('input',()=>{const word=q.value.trim().toLocaleLowerCase();let n=0;for(const c of all){let hit=c.dataset.search.toLocaleLowerCase().includes(word);c.hidden=!hit;if(hit)n++;}document.getElementById('nohits').style.display=n?'none':'block';});
