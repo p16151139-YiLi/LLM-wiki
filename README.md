@@ -23,15 +23,6 @@ python qa/check.py
 ```
 另外可執行 `node qa/test_interactions.js`（無需另外安裝套件），檢查操作邏輯。`qa/` 中有靜態檢查 19/19、Node 模擬 DOM 行為 12/12、WeasyPrint 13 頁預覽；**真實 Chromium 自動化受此環境管理政策攔截，未通過**。請於自己電腦開啟 `index.html` 按 `qa/manual_browser_checklist.md` 驗收。
 
-## 發佈 GitHub Pages（需自行操作）
-1. 在 GitHub 建立新的公開 Repository（例如 `sic-llm-wiki`）。
-2. 解壓縮後，**把本專案資料夾裡面的檔案**上傳到 Repository 根目錄，必須有最上層 `index.html`。
-3. 到 Settings → Pages → Build and deployment → Deploy from a branch；選 `main` 與 `/ (root)`，儲存。
-4. 等 GitHub Pages 顯示部署完成後，複製實際 URL：首頁 `https://帳號.github.io/儲存庫名稱/`；Wiki `.../wiki/`；簡報 `.../slides/`。
-5. 把 **實際能打開的網址** 貼到 `submission.txt` 的空白處。這些 URL 是格式示範，不是假定已發布的網址。
 
-## 注意事項
-- 某些來源可能受付費或地區限制；本站本地內容不需要存取外部網路，點原始連結才需要。
-- 本專案並不是連接即時 LLM API 的問答服務，而是由 LLM 輔助整理出的**靜態 LLM Wiki**，透過來源 ID 與卡片可追溯。
-- 如需同學自行再次 ingestion / 生成，請依 `AGENTS.md` 和 workflow 規格操作；HTML 不會自動產生新內容。
-- 繳交時需據實填學校、學號、系級、姓名，並自行部署網址；未經實作的人工審查／訪談畫面不可宣稱完成。
+
+
